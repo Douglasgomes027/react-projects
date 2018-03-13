@@ -3,8 +3,10 @@ import React,{Component} from 'react';
 class Form extends Component{
     render(){
         return(
-            <div>
-            </div>
+            <form>
+                <input type="text" name="city" placeholder="city..."/>
+                <input type="text" name="country" placeholder="country..."/>
+            </form>
         );
     }
 }

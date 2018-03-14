@@ -6,16 +6,24 @@ import Button from './components/Button'
 import GameResults from './components/GameResults'
 
 class App extends Component {
+  
+
+  marcarBoard(){
+      
+      alert("Clicou");
+  }
+
   render() {
-    return (
-      <body>
-        <div className="container">
-          <Title/>
-          <Button/>
-          <GameResults/>
-          <Board/>
-        </div>
-    </body>
+    return (      
+      <div className="container">
+        <Title/>
+        <Button/>
+        <GameResults/>
+        <button onClick={this.marcarBoard} className="btn btn-primary playAgain">
+              Clique para alertar
+          </button>
+        <Board onClick={this.marcarBoard}/>
+      </div>    
     );
   }
 }

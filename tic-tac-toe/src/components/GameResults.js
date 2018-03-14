@@ -3,7 +3,7 @@ import React,{Component} from 'react'
 class GameResults extends Component{
     render(){
         return(
-            <div className="modal fade" id="gameModal" tabindex="-1" role="dialog">
+            <div className="modal fade" id="gameModal" tabIndex="-1" role="dialog">
                 <div className="modal-dialog">
                     <div className="modal-content">
                         <div className="modal-header">
